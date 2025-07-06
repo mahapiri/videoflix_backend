@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from auth_app.models import Profile
+
+# Register profile model to the admin site
+admin.site.register(Profile)
